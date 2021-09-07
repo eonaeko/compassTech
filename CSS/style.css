@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #C4C4C4;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    height: 400px;
+    background-image: url(../IMG/Rectangle25.png);
+    color: white;
+    position: relative;
+   /* display: flex;
+    justify-content: space-around;*/
+}
+header h1{
+    position: absolute;
+    bottom: 0;
+    right: 26%;
+    color: #FF694A;
+    margin-bottom: 1.2em;
+    font-weight: 900;
+    text-shadow: black 2px 2px;
+    
+    font-family: 'Roboto', sans-serif;
+}
+.header-ul{
+    margin-top: 1em;
+    float: right;
+    font-family: 'Roboto', sans-serif
+}
+.header-ul li {
+    list-style-type:  none;
+    display: inline;
+    margin: 1em;
+    border: 1px solid black;
+    
+    padding: .6em;
+    background-color: #FF694A;
+    border-radius: 15px;    
+}
+.com-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.com-text{
+    margin: 1em;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.com-text p{
+    display: block;
+    
+    font-size: 12px;
+    margin-left: .5em;
+    
+}
+h2{
+    text-align: center;
+}
+.howc-works-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.idk-white{
+    background-color: #fff;
+    margin: 1em;
+    width: 300px;
+    height: auto ;
+    padding: 1em;
+    position: relative;
+}
+.idk-white p{
+    width: 200px;
+    font-weight: 900;
+    margin: 1em auto;
+    margin-top: 2em;
+    text-align: center;
+}
+.idk-white img{
+    display: block;
+    margin: 0 auto;
+   
+    width: 200px;
+}
+img.absoluted-img{
+    width: 50px;
+    position: absolute;
+    top: 1em;
+    left: 2em;
+}
+.CAL-buttion{
+    margin: 0 auto;
+    width: 400px;
+    height: 50px;
+    background-color: #FF694A;
+    padding: .5em;
+    border-radius: 15px;
+    margin-bottom: 1em;
+}
+.people-workingonic{
+    background-image: url(../IMG/peoplworkinonic.png);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.people-workingonic h2{
+    width: 600px;
+    margin: 0 auto;
+
+}
+img[src="IMG/new-five-star-min 1.svg"]{
+    width: 250px;
+    display: block;
+    margin: 1em auto;
+    margin-top: 4em;
+}
+.h2-reviews{
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    left: 30%;
+    margin-bottom: 1em;
+}
+.services-session{
+    margin: 1em;
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.image-services img{
+    width: 300px;
+}
+.services-para{
+    padding: 1em ;
+    font-weight: 500;
+    text-align: center;
+}
+
+footer{
+    background-color: #0F0F0F;
+
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-image{
+    width: 100px;
+    display: block;
+    
+    margin: 1em auto;
+}
+.footer-div{
+    width: 300px;
+    height: auto;
+    color: #fff;
+}
+.footer-fn{
+    background-color: #0F0F0F;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+}
